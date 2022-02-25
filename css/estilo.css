@@ -664,11 +664,32 @@ Mobile: 340px hasta 499px
 /* Mobile */
 @media only screen and (max-width: 499px) {
     main section#presentacion figure { height: 250px; }
-    main section#presentacion article { width: 90%; }
-    main section#presentacion article h2 { font-size: 1.25em; line-height: 1.35em; padding: 72px 0 16px 0; }
-    main section#presentacion article p { font-size: 0.9em; padding: 16px 0 16px 0; }
+    main section#presentacion div.about-img {
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
+  main section#presentacion div.about-content div.about-text {
+    flex: 0 0 90%;
+    max-width: 100%;
+}
 
-    main section#portafolio article { width: 90%; }
+main section#presentacion div.skills {
+  flex: 0 0 90%;
+  max-width: 100%;
+}
+
+
+
+  main section#presentacion div.about-content {
+    width: 100%;
+}
+main section#presentacion div a {
+  width: 114px;
+  height: 45px;
+  display: block;
+  margin: 12px 0 0 46px;
+}
+    main section#portafolio article { width: 90%; height: 1500px; }
     main section#portafolio article h2 { font-size: 1.25em; line-height: 1.35em; padding: 48px 0 24px 0; }
     main section#portafolio article p { font-size: 0.9em; padding: 0 0 48px 0; }
 
@@ -680,4 +701,5 @@ Mobile: 340px hasta 499px
     header { height: 60px; }
     header a { width: 112px; height: 37px; margin: 11px 0 11px 15px; }
 }
+
 

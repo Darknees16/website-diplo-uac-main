@@ -55,13 +55,13 @@ $(document).ready(function(){
     $(window).scroll(function(){
         if ($(this).scrollTop() > 250) {
             $('header').removeClass('transparente');
-            $('header').addClass('negro');
+            $('header').addClass('blanco');
 
             $('header').css('height','70px');
             $('header a').css('width','144px');
             $('header a').css('height','48px');
         } else {
-            $('header').removeClass('negro');
+            $('header').removeClass('blanco');
             $('header').addClass('transparente');
 
             $('header').css('height','100px');
